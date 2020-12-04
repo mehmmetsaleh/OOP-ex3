@@ -1,0 +1,44 @@
+mohammadsaleh
+
+
+=============================
+=      File description     =
+=============================
+README - this file.
+
+BoopingSite.java
+BoopingSiteTest.java
+HotelDistance.java
+Locker.java
+LockerTest.java
+LongTermStorage.java
+LongTermTest.java
+ProximityComparator.java
+RatingComparator.java
+Spaceship.java
+SpaceshipDepositoryTest.java
+SpaceshipTest.java
+Storage.java
+
+=============================
+= Design and implementation =
+=============================
+regarding the spaceship part I implemented each class as the given api
+and created a Storage.java Interface which represents a general Storage of
+the ship, which both Locker and LongTermStorage classes implement.
+Also used the has-a relation between the Spaceship and the LongTermStorage
+classes.
+
+regarding the part that deals with hotels.
+I created two comparator classes which both implement the method 
+"Compare()" in order to sort according to Rating and Proximity.
+Also in the proximity part I created another class "HotelDistance"
+which I implemented in it the ability to have an Euclidian Distance
+(which the Hotel class lacked) and used it to sort according to proximity.
+this class resembles a Wrapper class of the class Hotel but it's not (no
+inheritance was involved).
+
+finally I tested all my classes in both parts of the excerice using Junit.
+(In this paragraph I answer the whole questions that were asked in the pdf
+of the excerise, also I made it all clear and simple in the actual implementation) 
+
